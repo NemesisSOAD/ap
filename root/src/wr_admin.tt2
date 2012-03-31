@@ -1,0 +1,3 @@
+[% PROCESS admin/header.tt2 %]
+[% content %]
+[% PROCESS admin/footer.tt2 %]

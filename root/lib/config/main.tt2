@@ -1,0 +1,6 @@
+[%
+   site = {
+        title     => 'Catalyst::View::TTSite Example Page',
+        copyright => '2011 Your Name Here',
+   };
+-%]

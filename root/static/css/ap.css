@@ -1,0 +1,79 @@
+body {
+  font: normal 12px verdana,arial,tahoma;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px none;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+#header {
+  border: 0px none;
+  height: 45px;
+  background: #1E4176 url(/static/images/hd-bg.gif) repeat-x 0 0;
+}
+
+#header_power {
+  position: absolute;
+  width: 100px;
+  height: 31px;
+  top: 3px;
+  right: -2px;
+  background: url(/static/images/btn_88x31_powered.png) no-repeat 0 0;
+}
+
+#header_title {
+  position: absolute;
+  height: 33px;
+  top: 0px;
+  left: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+#lcenter {
+  margin-left: 50%;
+}
+
+#login {
+  margin-top: 50px;
+  margin-left: -150px;
+}
+
+.add {
+  background-image: url(/static/images/add.png) !important;
+}
+
+.remove {
+  background-image: url(/static/images/remove.png) !important;
+}
+
+.edit {
+  background-image: url(/static/images/edit.png) !important;
+}
+
+.reload {
+  background-image: url(/static/images/reload.png) !important;
+}
+
+.cancel {
+  background-image: url(/static/images/cancel.png) !important;
+}
+
+.exit {
+  background-image: url(/static/images/exit.png) !important;
+}
+
+.chpass {
+  background-image: url(/static/images/chpw.png) !important;
+}
+
+.pdf {
+  background-image: url(/static/images/pdf.png) !important;
+}

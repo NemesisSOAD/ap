@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+    <head>
+        <title>Server - Administrative Panel</title>
+        <link rel="stylesheet" href="[% c.uri_for('/static/ext/resources/css/ext-all.css') %]" />
+        <link rel="stylesheet" href="[% c.uri_for('/static/ext/resources/css/ext-all-gray.css') %]" />
+        <link rel="stylesheet" href="[% c.uri_for('/static/ext/examples/ux/css/CheckHeader.css') %]" />
+        <link rel="stylesheet" href="[% c.uri_for('/static/css/ap.css') %]" />
+        <script type="text/javascript" src="[% c.uri_for('/static/ext/ext-debug.js') %]"></script>
+        [% IF c.session.role_id %]
+            <script type="text/javascript" src="[% c.uri_for('/static/ap/app.js') %]"></script>
+        [% ELSE %]
+            <script type="text/javascript" src="[% c.uri_for('/static/ap/appAuth.js') %]"></script>
+        [% END %]
+    </head>
+    <body>
+    
